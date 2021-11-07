@@ -1,3 +1,6 @@
+# Macintosh directory storage
+.DS_Store
+
 # Logs
 logs
 *.log
