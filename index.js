@@ -69,7 +69,6 @@ const writeToFile = fileContent => {
 };
 
 const promptUser = () => {
-    console.log(inquirer.prompt);
     return inquirer.prompt(questions);
 }
 
