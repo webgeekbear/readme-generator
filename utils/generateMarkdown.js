@@ -61,7 +61,7 @@ ${data.installation}
 ${data.usage}
 
 ## License
-${renderLicenseLink()}
+Licensed under the [${data.license}](${renderLicenseLink(data.license)}) license.
 
 ## Contributing
 ${data.contributing}
@@ -73,6 +73,7 @@ ${data.tests}
 Please contact me if there are any questions.
 
 GitHub profile: https://github.com/${data.github}
+
 email address: ${data.email}
 
 `;
