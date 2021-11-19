@@ -39,4 +39,4 @@ email address: webgeekbear@gmail.com
 Node.js, ES6
 
 ## Video
-The video for this project can be seen at ![gdrive](https://watch.screencastify.com/v/MLo7fEneiECqmHxgcYsa)
+The video for this project can be seen at https://watch.screencastify.com/v/MLo7fEneiECqmHxgcYsa
