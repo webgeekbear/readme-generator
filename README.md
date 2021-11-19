@@ -35,3 +35,8 @@ GitHub profile: https://github.com/webgeekbear
 
 email address: webgeekbear@gmail.com
 
+## Technologies
+Node.js, ES6
+
+## Video
+The video for this project can be seen at ![gdrive](https://watch.screencastify.com/v/MLo7fEneiECqmHxgcYsa)

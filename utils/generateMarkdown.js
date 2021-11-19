@@ -13,7 +13,7 @@ function renderLicenseBadge(license) {
 }
 
 // Returns the license link
-// If there is no license, return an empty string
+// If there is no license, return "None"
 function renderLicenseLink(license) {
   switch (license) {
     case "MIT":
@@ -34,11 +34,7 @@ function renderLicenseLink(license) {
   }
 }
 
-// Returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
+// Generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
 ${renderLicenseBadge(data.license)}

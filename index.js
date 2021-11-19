@@ -3,6 +3,7 @@ const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
+// Validate input.  Return false if blank, true otherwise.
 const falseIfBlank = string => {
     if (!string.trim()) {
         return false;
@@ -68,6 +69,7 @@ const questions = [{
     }
 ];
 
+// Write the content to a file.
 const writeToFile = fileContent => {
     return new Promise((resolve, reject) => {
         fs.writeFile("./dist/README.md", fileContent, err => {
@@ -84,11 +86,12 @@ const writeToFile = fileContent => {
     });
 };
 
+// Prompt the user with the questions
 const promptUser = () => {
     return inquirer.prompt(questions);
 }
 
-// TODO: Create a function to initialize app
+// Run the program.
 function init() {
     promptUser()
         .then(data => {
